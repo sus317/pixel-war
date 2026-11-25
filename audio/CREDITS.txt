@@ -1,0 +1,8 @@
+8-bit game sound effects
+Pack: 8-Bit Sound Effect Pack (Vol. 001)
+Creator: Deva / @Shades
+Source: https://opengameart.org/content/8-bit-sound-effect-pack-vol-001
+License: CC0 (OpenGameArt listing). The creator requests credit.
+
+The GTA San Andreas style explosion MP3 was supplied by the user and is used
+for the player's projectile impact. It is separate from the CC0 sound pack.

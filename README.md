@@ -9,6 +9,7 @@ A pixel art wave-survival game in a single HTML file. Play as a mage against ene
 | Way | How |
 |---|---|
 | **Online** | Open https://sus317.github.io/games/ |
+| **Debug** | Open https://sus317.github.io/games/debug.html · press **F6** for wave 25 or **F7** for the final boss |
 | **Windows / macOS (browser)** | Download the repository and double-click `index.html` (Chrome, Edge, Firefox, Safari) |
 | **Windows / macOS (app)** | Download the file from [Releases](../../releases): `.exe` for Windows, `.dmg` for Mac |
 
@@ -28,6 +29,7 @@ No installation and no internet connection needed to play locally.
 | Lightning | Right click or K |
 | Powers | Q shield · E black hole · R ice · F holy light · T poison · G beam · V fire |
 | Pause | P or Esc |
+| Full screen | Click ⛶ in the game |
 
 **Gamepad** (Xbox, PlayStation, Switch Pro; press any button to activate it)
 
@@ -45,12 +47,16 @@ No installation and no internet connection needed to play locally.
 
 Powers unlock as you progress (lightning wave 1, shield 2, black hole 3, ice 4, holy light 6, poison 7, beam 8, fire 9). The game pauses automatically if you unplug the gamepad or switch tabs. Your best score is saved in the browser.
 
+Use the **♪** button to select an MP3 from your device for background music. The **↺** button restores the game's music, which changes with the biome and boss. The speaker button mutes or unmutes the audio.
+
 ## Features
 
 - 5 biomes (Forest, Tundra, Swamp, Autumn, Volcano) that change after each boss, each with its own enemies and projectiles.
+- A final boss phase after wave 25, with two health bars, golden laser rings and helpers.
+- Checkpoints at the start of every boss and when reaching a new biome.
 - Enemies: slimes, bats, shooters, brutes and elites. Bosses: stone golem and spiked beast, in a different version for each biome.
 - Random events: meteor shower, lightning storm, Blood Moon.
-- Combo score, drops (heart, star, bomb), particles and gamepad rumble.
+- Biome and boss music, sound effects, selectable MP3 soundtrack, combo score, drops (heart, star, bomb), particles and gamepad rumble.
 - English and Italian.
 
 ## Publishing on GitHub
@@ -86,12 +92,13 @@ npm start        # opens the game window
 npm run dist     # builds the installer for your system into dist/
 ```
 
-The game itself is `index.html`: edit it and open it in the browser.
+The game itself is `index.html`: edit it and open it in the browser. `debug.html` is the separate debug copy (F6: wave 25, F7: final boss). Audio files are in `audio/`.
 
 ## Credits and licenses
 
 - Game: © sus317, MIT license (see `LICENSE`).
 - **Visual effects (explosions, lightning, ice, rain, etc.): [Pixel Art VFX by Sprite Fusion](https://www.spritefusion.com/pixel-art-vfx)** by Hugo Duprez, open source under the MIT license. Details in `THIRD_PARTY_NOTICES.md`.
+- **Sound effects:** 8-Bit Sound Effect Pack Vol. 001 by Deva / @Shades, CC0; see `audio/CREDITS.txt`. The player explosion MP3 was supplied by the project owner.
 
 ## Italiano
 

@@ -16,7 +16,7 @@
   "build": {
     "appId": "com.example.pixelwar",
     "productName": "Pixel War",
-    "files": ["index.html", "main.js"],
+    "files": ["index.html", "main.js", "audio/**/*"],
     "win": { "target": ["nsis", "portable"] },
     "mac": { "target": [{ "target": "dmg", "arch": ["x64", "arm64"] }], "category": "public.app-category.games" }
   }
