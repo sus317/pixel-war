@@ -8,8 +8,8 @@ A pixel art wave-survival game in a single HTML file. Play as a mage against ene
 
 | Way | How |
 |---|---|
-| **Online** | Open https://sus317.github.io/games/ |
-| **Debug** | Open https://sus317.github.io/games/debug.html · press **F6** for wave 25 or **F7** for the final boss |
+| **Online** | Open https://sus317.github.io/pixel-war/ |
+| **Debug** | Open https://sus317.github.io/pixel-war/debug.html · press **F6** for wave 25 or **F7** for the final boss |
 | **Windows / macOS (browser)** | Download the repository and double-click `index.html` (Chrome, Edge, Firefox, Safari) |
 | **Windows / macOS (app)** | Download the file from [Releases](../../releases): `.exe` for Windows, `.dmg` for Mac |
 
@@ -65,11 +65,11 @@ Use the **♪** button to select an MP3 from your device for background music. T
 git init -b main
 git add .
 git commit -m "Pixel War"
-git remote add origin https://github.com/sus317/games.git
+git remote add origin https://github.com/sus317/pixel-war.git
 git push -u origin main
 ```
 
-1. **Online playable page:** on GitHub go to *Settings → Pages → Build and deployment → Source: GitHub Actions*. After the first push the game is live at `https://sus317.github.io/games/`.
+1. **Online playable page:** on GitHub go to *Settings → Pages → Build and deployment → Source: GitHub Actions*. After the first push the game is live at `https://sus317.github.io/pixel-war/`.
 2. **Windows and Mac apps:** create a tag and GitHub builds the files and puts them in *Releases*:
    ```bash
    git tag v1.0.0
