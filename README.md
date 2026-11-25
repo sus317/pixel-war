@@ -96,3 +96,25 @@ The game itself is `index.html`: edit it and open it in the browser.
 ## Italiano
 
 **Pixel War** è un gioco pixel art di sopravvivenza a ondate in un solo file HTML. Gioca online con GitHub Pages, apri `index.html` nel browser su Windows o macOS, oppure scarica `.exe` / `.dmg` da Releases. Supporta tastiera, mouse e controller (comandi nelle tabelle sopra) e ha la pausa (P / Esc / Start). Effetti visivi di [Sprite Fusion Pixel Art VFX](https://www.spritefusion.com/pixel-art-vfx) (MIT).
+
+# Third-party notices
+
+## Pixel Art VFX – Sprite Fusion
+
+The visual effects (explosions, impacts, slash, blood, muzzle flash, lightning,
+ice, poison, energy, shield, black hole, holy light, heal, power-up, pickup,
+sparkle, dash, fire, rain, snow, fog, embers, fireflies, falling leaves,
+bubbles) come from the free, open source **Pixel Art VFX** library by
+**Hugo Duprez / Sprite Fusion**.
+
+- Source: https://www.spritefusion.com/pixel-art-vfx
+- License: MIT (free and commercial use, modification allowed)
+- Copyright (c) Sprite Fusion (Hugo Duprez)
+
+In `index.html` this code is the first `<script>` block (minified, exposed as
+`window.FX`). The game logic in the second `<script>` block is original work.
+
+The MIT license requires that the copyright notice and the license text stay
+with the code. The full MIT text is in the `LICENSE` file of this repository;
+if the effects ZIP you downloaded contains its own license file, copy its
+exact copyright line here.
